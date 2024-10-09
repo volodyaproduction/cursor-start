@@ -32,7 +32,7 @@ This guide will take around 1 to 2 hours of your time.
 
 Before we dive into React, let's spend 10-20 minutes in a simpler setup - a simple html website in a single `index.html` file.
 
-1. Install [Cursor IDE](https://www.cursor.com/). If you had it installed before, Cmd+Shift+P "Attempt Update" to get the latest update
+1. Install [Cursor IDE](https://www.cursor.com/), select any options during installation, then log in. If you had it installed before, Cmd+Shift+P "Attempt Update" to get the latest update
 3. As you're in a `.cursortutor` project (or in any other empty folder opened as a project), press `Cmd+I` (`Ctrl+I`) and ask Cursor to make a **simple html website**. Ask for any functionality and UI. Try asking in your language (Spanish, Polish etc.):
 ```
 Create a simple html website with easy conversion between 7 main time zones.
@@ -74,7 +74,7 @@ Again, click `[Accept All]` when available and refresh your page in the browser:
 
 
 
-## Get the tools ready
+## Version 2: a React app. Get the tools ready
 
 1. Go here -> [and install Node.js](https://nodejs.org/en/download/prebuilt-installer) version 20
    - On Windows, do it directly to Windows, NOT to WSL-Ubuntu.
@@ -99,7 +99,10 @@ Then open the link it gives in your browser.
 
 <img width="1005" alt="Screenshot 2024-10-02 at 11 52 29" src="https://github.com/user-attachments/assets/9fbff3f8-be54-43af-80f3-fc8ed846cf2c">
 
-On Windows, you may get errors for `npm` not being found. Try opening a "Command Prompt" type of terminal in Cursor and run `npm run dev` in it.
+On Windows, you may get errors for `npm` not being found. Try opening a "Command Prompt" type of terminal in Cursor and run `npm run dev` in it:
+
+![photo_2024-10-09_16-53-07](https://github.com/user-attachments/assets/088e8782-a9d0-46b1-a1cd-56f2d1120d0d)
+
 
 If `npm` is still not found there, it usually means that your installation of Node.js hasn't added a path to `npm` to your PATH variable. Ask Cursor's Chat (or a GPT4/Claude.ai/Bing Copilot/Gemini) on how to debug that.
 
@@ -272,17 +275,4 @@ Next time write a commit message right in the message box:
 
 <img width="252" alt="Screenshot 2024-10-02 at 15 54 23" src="https://github.com/user-attachments/assets/1fd00da2-1d3b-456f-b8f9-66d4d66982f8">
 
-
-
-# Backup
-
-4. Type `git` to your terminal. If git is not found, install [git](https://git-scm.com/downloads)
-6. If you never committed to git on this machine, run in the terminal with your own name and email:
-```
-git config --global user.name "Your Name"
-```
-and
-```
-git config --global user.email "youremail@example.com"
-```
 
